@@ -15,6 +15,10 @@ class Node
     "#{@key}: #{@val}"
   end
 
+  def inspect
+    "node: key=#{key}/ val=#{val}\n"
+  end
+
   def remove
     # optional but useful, connects previous link to next link
     # and removes self from list.
